@@ -1,0 +1,13 @@
+<!doctype html>
+{% extends "basicapp/base.html" %}
+	{% block body_block %}
+		<!-- <h1>WELCOME TO THE INDEX PAGE</h1>
+		<h2>This page display index.html !</h2> -->
+
+		<h1> {{ text|upper }} </h1>
+		<h2> {{ number|add:"99" }} </h2> <!--number have value 100 and then we add in 99 -> 199 -->
+		
+		<!-- for using @register  -->
+		<!-- <h1> {{ text|cut:'world'}}  it gonna cut out world from hello world -->
+
+	{% endblock %}
