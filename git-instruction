@@ -1,0 +1,10 @@
+# To create a new repo from command line with step in turn:
+At the base dir 
+1. $git init 
+2. $ git add * 	-> * is for all 
+3. $ git commit * -m 'your commit message'
+4. $ git git branch -M yourbranchname
+5. $ git remote add origin thisIsOrriginLink 	-> you can copy this line on GitHub 
+6. $ git push -u origin yourbranchname 
+
+# Done! You can check your GitHub to see if the code was pushed 
